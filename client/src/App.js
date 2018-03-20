@@ -11,7 +11,10 @@ class App extends Component {
 
           <NavHeader />
           <Router>
+            <Route exact path = "/about" component = {AboutMe} />
+            <Route exact path = "/portfolio" component = {Portfolio} />
             <Route exact path = "/resume" component = {Resume} />
+            <Route exact path = "/contact" component = {ContactInfo} />
             </Router>
       </div>
     );

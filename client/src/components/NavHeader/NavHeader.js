@@ -10,7 +10,7 @@ const NavHeader = ()=>(
     </Navbar.Brand>
   </Navbar.Header>
   <Nav>
-    <NavItem eventKey={1} href="/About">
+    <NavItem eventKey={1} href="/about">
       Home
     </NavItem>
     <NavItem eventKey={2} href="/portfolio">
