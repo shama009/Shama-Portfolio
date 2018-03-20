@@ -9,9 +9,9 @@ export default class Resume extends Component {
                     <div className="row">
                         <div className="col-sm-8">
                         <h1>{data.name}</h1>
+                        <h3>{data.title}</h3>
                         </div>
                     </div>
-
                 </div>)
         })
         return (
