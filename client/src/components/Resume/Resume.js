@@ -7,10 +7,22 @@ export default class Resume extends Component {
             return (
                 <div className="container">
                     <div className="row">
-                        <div className="col-sm-8">
-                        <h1>{data.name}</h1>
+                        <div className = "col-sm-8">
+                        <h2>{data.name}</h2>
                         <h3>{data.title}</h3>
                         </div>
+                        <div className = "col-sm-4">
+                        <br />
+                        <h5>{data.location}</h5>
+                        <h5>{data.phoneNum}</h5>
+                        <h5>{data.email}</h5>
+                        </div>
+                    </div>
+                    <div className="col-sm-12">
+                    <hr />
+                    </div>
+                    <div className="col-sm-8">
+                    
                     </div>
                 </div>)
         })
