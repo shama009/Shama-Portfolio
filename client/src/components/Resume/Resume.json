@@ -1,13 +1,13 @@
-[
-    {
-        "name": "SHAMA ANJUM",
-        "title": "Java Software Engineer | Full Stack Web Developer",
-        "location": "San Diego, CA",
-        "phoneNum": "858-226-2852",
-        "email": "shamaanjum09@outlook.com",
-        "Career Summary": ["Four years of software development experience in Java/J2EE, Spring, Hibernate, Web Services with Agile (Scrum) methodologies and domain expertise in Banking and Financial Services",
-                            "Expertise in all phases of Software Development Life Cycle (SDLC).",
-                            "Built web applications using HTML, CSS, JavaScript, jQuery, Ajax and MERN stack (MongoDB, Express, React JS, Node.js).",
-                            "Self-motivated, quick learner and very passionate to learn modern technologies and tools."]
+{
+    "name": "SHAMA ANJUM",
+    "title": "Java Software Engineer | Full Stack Web Developer",
+    "location": "San Diego, CA",
+    "phoneNum": "858-226-2852",
+    "email": "shamaanjum09@outlook.com",
+    "Career Summary": {
+        "item1": "Four years of software development experience in Java/J2EE, Spring, Hibernate, Web Services with Agile (Scrum) methodologies and domain expertise in Banking and Financial Services",
+        "item2": "Expertise in all phases of Software Development Life Cycle (SDLC).",
+        "item3": "Built web applications using HTML, CSS, JavaScript, jQuery, Ajax and MERN stack (MongoDB, Express, React JS, Node.js).",
+        "item4": "Self-motivated, quick learner and very passionate to learn modern technologies and tools."
     }
-]
+}

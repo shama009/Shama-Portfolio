@@ -3,36 +3,35 @@ import ResumeContent from "./Resume.json";
 
 export default class Resume extends Component {
     render = () => {
-        let resume = ResumeContent.map(data => {
-            return (
+        //let careerSummary = [ResumeContent.item1, ResumeContent.item, ResumeContent.item3, ResumeContent.item4]
+        //console.log(careerSummary);
+            return(
                 <div className="container">
                     <div className="row">
                         <div className = "col-sm-8">
-                        <h2>{data.name}</h2>
-                        <h3>{data.title}</h3>
+                        <h2>{ResumeContent.name}</h2>
+                        <h3>{ResumeContent.title}</h3>
                         </div>
                         <div className = "col-sm-4">
                         <br />
-                        <h5>{data.location}</h5>
-                        <h5>{data.phoneNum}</h5>
-                        <h5>{data.email}</h5>
+                        <h5>{ResumeContent.location}</h5>
+                        <h5>{ResumeContent.phoneNum}</h5>
+                        <h5>{ResumeContent.email}</h5>
                         </div>
                     </div>
                     <div className="col-sm-12">
                     <hr />
                     </div>
                     <div className="col-sm-8">
-                    
+                    <h3>{Object.keys(ResumeContent)[5]}</h3>
+                    <ul>
+                    <li className="summary">{ResumeContent["Career Summary"].item1}</li>
+                    <li className="summary">{ResumeContent["Career Summary"].item2}</li>
+                    <li className="summary">{ResumeContent["Career Summary"].item3}</li>
+                    <li className="summary">{ResumeContent["Career Summary"].item4}</li>
+                    </ul>
                     </div>
                 </div>)
-        })
-        return (
-            <div className="container">
-                <div className="row">
-                    {resume}
-                </div>
-            </div>
-        )
 
     }
 }
