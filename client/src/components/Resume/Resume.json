@@ -5,9 +5,43 @@
     "phoneNum": "858-226-2852",
     "email": "shamaanjum09@outlook.com",
     "Career Summary": {
-        "item1": "Four years of software development experience in Java/J2EE, Spring, Hibernate, Web Services with Agile (Scrum) methodologies and domain expertise in Banking and Financial Services",
+        "item1": "Four years of software development experience in Java/J2EE, Javascript, Web Services with Agile (Scrum) methodologies and domain expertise in Banking and Financial Services",
         "item2": "Expertise in all phases of Software Development Life Cycle (SDLC).",
         "item3": "Built web applications using HTML, CSS, JavaScript, jQuery, Ajax and MERN stack (MongoDB, Express, React JS, Node.js).",
         "item4": "Self-motivated, quick learner and very passionate to learn modern technologies and tools."
+    },
+    "Applications Built": {
+        "BumbleBot": {
+            "description": "BumbleBot is a full stack MERN app, which uses the Twitter API to generate “twitter bots”. The app uses Passport.js to authenticate users and store Twitter client data. On the front end, users are provided an interface for automating their twitter account.",
+            "tech": "React JS, Node.js, Express, MongoDB, Passport.js",
+            "links": {
+                "url": "http://bumble-bot.herokuapp.com/",
+                "github": "https://github.com/shama009/BumbleBot"
+            }
+        },
+        "clicky-Game-React-App": {
+            "description": "A memory game developed using React JS library. Components state is managed to respond to user click events.",
+            "tech":"ES6, React.js",
+            "links": {
+                "url": "https://clicky-game-react-app.herokuapp.com/",
+                "github": "https://github.com/shama009/Clicky-Game-React-App"
+            }
+        },
+        "MyPlace": {
+            "description": "A personal homepage designed to provide users with location-based news, events, weather and traffic. Makes ajax calls to external APIs to fetch location baased information. Bookmarked events/articles are stored in Firebase.",
+            "tech": "JQuery, Bootstrap, modals, Firebase, momentjs, APIs: newsAPI, SeatGeek, openweathermap, mapQuest-GeoCoding API, mapQuest-Traffic API, GoogleMaps",
+            "links": {
+                "url": "https://randolfresurreccion.github.io/MyPlace/",
+                "github": "https://github.com/shama009/MyPlace"
+            }
+        },
+        "Multiplayer-Pong": {
+            "description": "Multiplayer Pong!!",
+            "tech": "Node.js, Express, MySQL, Phaser.io, socket.io",
+            "links": {
+                "url": "https://multiplayer-pong-ifjs.herokuapp.com/",
+                "github": "https://github.com/shama009/Multiplayer-Pong"
+            }
+        }
     }
 }
