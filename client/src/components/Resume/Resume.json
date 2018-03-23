@@ -10,60 +10,63 @@
         "item3": "Built web applications using HTML, CSS, JavaScript, jQuery, Ajax and MERN stack (MongoDB, Express, React JS, Node.js).",
         "item4": "Self-motivated, quick learner and very passionate to learn modern technologies and tools."
     },
-    "Applications Built": {
-        "BumbleBot": {
-            "description": "BumbleBot is a full stack MERN app, which uses the Twitter API to generate “twitter bots”. The app uses Passport.js to authenticate users and store Twitter client data. On the front end, users are provided an interface for automating their twitter account.",
-            "tech": "React JS, Node.js, Express, MongoDB, Passport.js",
-            "links": {
-                "url": "http://bumble-bot.herokuapp.com/",
-                "github": "https://github.com/shama009/BumbleBot"
-            }
-        },
-        "clicky-Game-React-App": {
-            "description": "A memory game developed using React JS library. Components state is managed to respond to user click events.",
-            "tech":"ES6, React.js",
-            "links": {
-                "url": "https://clicky-game-react-app.herokuapp.com/",
-                "github": "https://github.com/shama009/Clicky-Game-React-App"
-            }
-        },
-        "MyPlace": {
-            "description": "A personal homepage designed to provide users with location-based news, events, weather and traffic. Makes ajax calls to external APIs to fetch location baased information. Bookmarked events/articles are stored in Firebase.",
-            "tech": "JQuery, Bootstrap, modals, Firebase, momentjs, APIs: newsAPI, SeatGeek, openweathermap, mapQuest-GeoCoding API, mapQuest-Traffic API, GoogleMaps",
-            "links": {
-                "url": "https://randolfresurreccion.github.io/MyPlace/",
-                "github": "https://github.com/shama009/MyPlace"
-            }
-        },
-        "Multiplayer-Pong": {
-            "description": "Multiplayer Pong!!",
-            "tech": "Node.js, Express, MySQL, Phaser.io, socket.io",
-            "links": {
-                "url": "https://multiplayer-pong-ifjs.herokuapp.com/",
-                "github": "https://github.com/shama009/Multiplayer-Pong"
-            }
+    "Applications Built": [
+        {
+        "title": "BumbleBot",
+        "description": "BumbleBot is a full stack MERN app, which uses the Twitter API to generate “twitter bots”. The app uses Passport.js to authenticate users and store Twitter client data. On the front end, users are provided an interface for automating their twitter account.",
+        "tech": "React JS, Node.js, Express, MongoDB, Passport.js",
+        "links": {
+            "url": "http://bumble-bot.herokuapp.com/",
+            "github": "https://github.com/shama009/BumbleBot"
         }
     },
-    "Professional Experience": {
-        "company": "Cognizant Technology Solutions",
-        "client": "Java Software Engineer, Western Union",
-        "project": "WU.COM - Development",
-        "description": {
-            "item1": "Designed and developed web pages with Spring MVC and Hibernate frameworks using Core Java, J2EE, JavaScript, jQuery, Ajax, MySQL with Agile(Scrum) methodologies. Involved in maintaining application and resolved pre-production defects/bugs.",
-            "item2": "Worked on technical documentation and RTM for the projects. Participated in project audits and Code Reviews.",
-            "item3": "Developed code to generate test data and reduced unit testing efforts by 30%."
+    {
+    "title": "clicky-Game-React-App",
+        "description": "A memory game developed using React JS library. Components state is managed to respond to user click events.",
+        "tech": "ES6, React.js",
+        "links": {
+            "url": "https://clicky-game-react-app.herokuapp.com/",
+            "github": "https://github.com/shama009/Clicky-Game-React-App"
         }
     },
-    "Certifications and Education": {
-        "UCSD": {
-            "cert": "UCSD Coding Bootcamp, UCSD Extension - Full Stack Developer",
-            "period": "February 2018",
-            "course" : "An intensive 12-week long full-time coding program dedicated to designing and building web applications using HTML5, CSS3, JavaScript, Java, jQuery, Bootstrap, Node.js, Express.js, React.js, MongoDB, Mongoose, MySQL, Sequelize, Git, and Heroku."
-        },
-        "ENGG": {
-            "cert": "Osmania University - India",
-            "period": "May 2011",
-            "course": "Bachelor of Engineering, Electronics and Communications"
+    {"title": "MyPlace",
+        "description": "A personal homepage designed to provide users with location-based news, events, weather and traffic. Makes ajax calls to external APIs to fetch location baased information. Bookmarked events/articles are stored in Firebase.",
+        "tech": "JQuery, Bootstrap, modals, Firebase, momentjs, APIs: newsAPI, SeatGeek, openweathermap, mapQuest-GeoCoding API, mapQuest-Traffic API, GoogleMaps",
+        "links": {
+            "url": "https://randolfresurreccion.github.io/MyPlace/",
+            "github": "https://github.com/shama009/MyPlace"
+        }
+    },
+    {
+    "title": "Multiplayer-Pong",
+        "description": "Multiplayer Pong!!",
+        "tech": "Node.js, Express, MySQL, Phaser.io, socket.io",
+        "links": {
+            "url": "https://multiplayer-pong-ifjs.herokuapp.com/",
+            "github": "https://github.com/shama009/Multiplayer-Pong"
         }
     }
+],
+"Professional Experience": [{
+    "company": "Cognizant Technology Solutions",
+    "role": "Java Software Engineer, Western Union",
+    "project": "WU.COM - Development",
+    "description": {
+        "item1": "Designed and developed web pages with Spring MVC and Hibernate frameworks using Core Java, J2EE, JavaScript, jQuery, Ajax, MySQL with Agile(Scrum) methodologies. Involved in maintaining application and resolved pre-production defects/bugs.",
+        "item2": "Worked on technical documentation and RTM for the projects. Participated in project audits and Code Reviews.",
+        "item3": "Developed code to generate test data and reduced unit testing efforts by 30%."
+    }
+}],
+"Certifications and Education": [{
+    
+        "cert": "UCSD Coding Bootcamp, UCSD Extension - Full Stack Developer",
+        "period": "February 2018",
+        "course": "An intensive 12-week long full-time coding program dedicated to designing and building web applications using HTML5, CSS3, JavaScript, Java, jQuery, Bootstrap, Node.js, Express.js, React.js, MongoDB, Mongoose, MySQL, Sequelize, Git, and Heroku."
+    },
+    {
+        "cert": "Osmania University - India",
+        "period": "May 2011",
+        "course": "Bachelor of Engineering, Electronics and Communications"
+    }
+]
 }
