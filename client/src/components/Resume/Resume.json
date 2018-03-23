@@ -54,11 +54,11 @@
             "company": "Cognizant Technology Solutions",
             "role": "Java Software Engineer, Western Union",
             "project": "WU.COM - Development",
-            "description": {
-                "item1": "Designed and developed web pages with Spring MVC and Hibernate frameworks using Core Java, J2EE, JavaScript, jQuery, Ajax, MySQL with Agile(Scrum) methodologies. Involved in maintaining application and resolved pre-production defects/bugs.",
-                "item2": "Worked on technical documentation and RTM for the projects. Participated in project audits and Code Reviews.",
-                "item3": "Developed code to generate test data and reduced unit testing efforts by 30%."
-            }
+            "description": [
+                "Designed and developed web pages with Spring MVC and Hibernate frameworks using Core Java, J2EE, JavaScript, jQuery, Ajax, MySQL with Agile(Scrum) methodologies. Involved in maintaining application and resolved pre-production defects/bugs.",
+                "Worked on technical documentation and RTM for the projects. Participated in project audits and Code Reviews.",
+                "Developed code to generate test data and reduced unit testing efforts by 30%."
+            ]
         }
     ],
     "Certifications and Education": [
