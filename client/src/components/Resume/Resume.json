@@ -43,5 +43,27 @@
                 "github": "https://github.com/shama009/Multiplayer-Pong"
             }
         }
+    },
+    "Professional Experience": {
+        "company": "Cognizant Technology Solutions",
+        "client": "Java Software Engineer, Western Union",
+        "project": "WU.COM - Development",
+        "description": {
+            "item1": "Designed and developed web pages with Spring MVC and Hibernate frameworks using Core Java, J2EE, JavaScript, jQuery, Ajax, MySQL with Agile(Scrum) methodologies. Involved in maintaining application and resolved pre-production defects/bugs.",
+            "item2": "Worked on technical documentation and RTM for the projects. Participated in project audits and Code Reviews.",
+            "item3": "Developed code to generate test data and reduced unit testing efforts by 30%."
+        }
+    },
+    "Certifications and Education": {
+        "UCSD": {
+            "cert": "UCSD Coding Bootcamp, UCSD Extension - Full Stack Developer",
+            "period": "February 2018",
+            "course" : "An intensive 12-week long full-time coding program dedicated to designing and building web applications using HTML5, CSS3, JavaScript, Java, jQuery, Bootstrap, Node.js, Express.js, React.js, MongoDB, Mongoose, MySQL, Sequelize, Git, and Heroku."
+        },
+        "ENGG": {
+            "cert": "Osmania University - India",
+            "period": "May 2011",
+            "course": "Bachelor of Engineering, Electronics and Communications"
+        }
     }
 }
