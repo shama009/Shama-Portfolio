@@ -3,8 +3,6 @@ import ResumeContent from "./Resume.json";
 
 export default class Resume extends Component {
     render = () => {
-        //let careerSummary = [ResumeContent.item1, ResumeContent.item, ResumeContent.item3, ResumeContent.item4]
-        //console.log(careerSummary);
         const careerSummary = ResumeContent["Career Summary"].map((summary) => {
             return (
                 <li>{summary}</li>
@@ -12,17 +10,31 @@ export default class Resume extends Component {
         });
         const apps = ResumeContent["Applications Built"].map((app) => {
             return (<div className={app.title}>
-                <h4><strong>{app.title}</strong></h4>
+                <h3>{app.title}</h3>
                 <p>{app.description}</p>
-                <p>{"Tech: "+app.tech}</p>
+                <p>{"Tech: " + app.tech}</p>
                 <p><a href={app.links.url}>Application</a></p>
                 <p><a href={app.links.github}>GitHub</a></p>
             </div>);
         });
+
+        // const experience = ResumeContent["Professional Experience"].map((profExp) => {
+        //     return (<div className={profExp.period}>
+        //         <h4><strong>{profExp.company}</strong></h4>
+        //         <h4><strong>{profExp.role}</strong></h4>
+        //         <h4><strong>{profExp.project}</strong></h4>
+        //         <p>{profExp.description.map((item) => {
+        //             return (
+        //                 <li>{item}</li>
+        //             );
+        //         })}</p>
+        //         <h4><strong>{profExp.description}</strong></h4>
+        //     </div>);
+        // });
         return (
             <div className="container">
                 <div className="row">
-                {/* Render and display name, title  */}
+                    {/* Render and display name, title  */}
                     <div className="col-sm-8">
                         <h2><center>{ResumeContent.name}</center></h2>
                         <h4><center>{ResumeContent.title}</center></h4>
@@ -58,8 +70,8 @@ export default class Resume extends Component {
                 <div className="col-sm-4"></div>
                 {/* render professional experience */}
                 <div className="col-sm-8">
-                <h3>{Object.keys(ResumeContent)[8]}</h3>
-                    {"prof experience"}
+                    <h3>{Object.keys(ResumeContent)[8]}</h3>
+                    {/* {experience} */}
                 </div>
                 <div className="col-sm-4"></div>
                 {/* education and certifications */}
