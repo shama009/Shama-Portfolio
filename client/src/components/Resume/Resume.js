@@ -19,15 +19,32 @@ export default class Resume extends Component {
         });
 
         const experience = ResumeContent["Professional Experience"].map((profExp) => {
-            return (<div className={profExp.period}>
+            return (<div className={profExp.tenure}>
                 <h4><strong>{profExp.company}</strong></h4>
                 <h4><strong>{profExp.role}</strong></h4>
                 <h4><strong>{profExp.project}</strong></h4>
-                <ul><p>{profExp.description.map((item) => {
+                <ul>{profExp.description.map((item) => {
                     return (
                         <li>{item}</li>
                     );
-                })}</p></ul>
+                })}</ul>
+            </div>);
+        });
+        const edu = ResumeContent["Certifications and Education"].map((edu) => {
+            return (<div className={edu.year}>
+                <p>{edu.cert}</p>
+                <p>{edu.year}</p>
+                <p>{edu.course}</p>
+            </div>);
+        });
+        const skills = ResumeContent.skills.map((skills) => {
+            return (<div className={skills.type}>
+                <p><strong>{skills.type}</strong></p>
+                <ul>{skills.skills.map((item) => {
+                    return (
+                        <li>{item}</li>
+                    );
+                })}</ul>
             </div>);
         });
         return (
@@ -45,7 +62,6 @@ export default class Resume extends Component {
                         <h5>{ResumeContent.phoneNum}</h5>
                         <h5>{ResumeContent.email}</h5>
                     </div>
-                </div>
                 {/* thematic break using hr tag */}
                 <div className="col-sm-12">
                     <hr />
@@ -56,28 +72,50 @@ export default class Resume extends Component {
                     <ul className="summary">
                         {careerSummary}
                     </ul>
-                </div>
-                {/* render tech skills */}
-                <div className="col-sm-4">
-                    {"skills"}
-                </div>
                 {/* apps built heading and content */}
-                <div className="col-sm-8">
-                    <h3>{Object.keys(ResumeContent)[7]}</h3>
+                    <h3>{Object.keys(ResumeContent)[6]}</h3>
                     {apps}
-                </div>
-                <div className="col-sm-4"></div>
                 {/* render professional experience */}
-                <div className="col-sm-8">
-                    <h3>{Object.keys(ResumeContent)[8]}</h3>
-                    
+                    <h3>{Object.keys(ResumeContent)[7]}</h3>
                     {experience}
-                    
-                </div>
-                <div className="col-sm-4"></div>
                 {/* education and certifications */}
-                <div className="col-sm-8"></div>
-                <div className="col-sm-4"></div>
+                    <h3>{Object.keys(ResumeContent)[8]}</h3>
+                    {edu}
+                    </div>
+                 {/* render tech skills */}
+                 <div className="col-sm-4">
+                 <h3>{Object.keys(ResumeContent)[9]}</h3>
+                 {skills}
+                    </div>
+
+
+                 {/* <div className="col-sm-4">
+                 <h4>Skills</h4>
+                 <h5>Programming Languages:</h5>
+                 <ul>   
+                     <li>HTML/CSS</li>
+                     <li>JavaScript/ES6</li>
+                     <li>Java</li>
+                     <li>SQL</li>
+                 </ul>
+                 <h5>Libraries and Frameworks:</h5>
+                 <ul>   
+                     <li>React.js</li>
+                     <li>Node.js/Express.js</li>
+                     <li>JQuery</li>
+                 </ul>
+                 <h5>Version Control:</h5>
+                 <ul>   
+                     <li>Git</li>
+                 </ul>
+                 <h5>Other:</h5>
+                 <ul>   
+                     <li>API/Async</li>
+                     <li>REST</li>
+                     <li>MVC</li>
+                 </ul>
+                 </div> */}
+            </div>
             </div>)
 
     }

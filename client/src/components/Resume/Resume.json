@@ -10,7 +10,6 @@
         "Built web applications using HTML, CSS, JavaScript, jQuery, Ajax and MERN stack (MongoDB, Express, React JS, Node.js).",
         "Self-motivated, quick learner and very passionate to learn modern technologies and tools."
     ],
-    "skills": [],
     "Applications Built": [
         {
             "title": "BumbleBot",
@@ -54,6 +53,7 @@
             "company": "Cognizant Technology Solutions",
             "role": "Java Software Engineer, Western Union",
             "project": "WU.COM - Development",
+            "tenure":"October 2011 - May 2015",
             "description": [
                 "Designed and developed web pages with Spring MVC and Hibernate frameworks using Core Java, J2EE, JavaScript, jQuery, Ajax, MySQL with Agile(Scrum) methodologies. Involved in maintaining application and resolved pre-production defects/bugs.",
                 "Worked on technical documentation and RTM for the projects. Participated in project audits and Code Reviews.",
@@ -64,13 +64,26 @@
     "Certifications and Education": [
         {
             "cert": "UCSD Coding Bootcamp, UCSD Extension - Full Stack Developer",
-            "period": "February 2018",
+            "year": "February 2018",
             "course": "An intensive 12-week long full-time coding program dedicated to designing and building web applications using HTML5, CSS3, JavaScript, Java, jQuery, Bootstrap, Node.js, Express.js, React.js, MongoDB, Mongoose, MySQL, Sequelize, Git, and Heroku."
         },
         {
             "cert": "Bachelor of Engineering, Osmania University - India",
-            "period": "May 2011",
+            "year": "May 2011",
             "course": "Major: Electronics and Communications"
         }
-    ]
+    ],
+    "skills": [{
+        "type":"programming languages",
+        "skills": ["HTML/CSS", "JavaScript/ES6", "Java/J2EE", "SQL"]    
+    },
+    {
+        "type":"Libraries and Frameworks",
+        "skills": ["React.js", "Node.js/Express.js", "JQuery", "REST", "MVC"] 
+    },
+    {
+        "type":"Version Control",
+        "skills": ["Git", "SVN"] 
+    }
+]
 }
