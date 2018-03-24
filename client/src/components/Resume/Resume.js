@@ -18,19 +18,18 @@ export default class Resume extends Component {
             </div>);
         });
 
-        // const experience = ResumeContent["Professional Experience"].map((profExp) => {
-        //     return (<div className={profExp.period}>
-        //         <h4><strong>{profExp.company}</strong></h4>
-        //         <h4><strong>{profExp.role}</strong></h4>
-        //         <h4><strong>{profExp.project}</strong></h4>
-        //         <p>{profExp.description.map((item) => {
-        //             return (
-        //                 <li>{item}</li>
-        //             );
-        //         })}</p>
-        //         <h4><strong>{profExp.description}</strong></h4>
-        //     </div>);
-        // });
+        const experience = ResumeContent["Professional Experience"].map((profExp) => {
+            return (<div className={profExp.period}>
+                <h4><strong>{profExp.company}</strong></h4>
+                <h4><strong>{profExp.role}</strong></h4>
+                <h4><strong>{profExp.project}</strong></h4>
+                <ul><p>{profExp.description.map((item) => {
+                    return (
+                        <li>{item}</li>
+                    );
+                })}</p></ul>
+            </div>);
+        });
         return (
             <div className="container">
                 <div className="row">
@@ -71,7 +70,9 @@ export default class Resume extends Component {
                 {/* render professional experience */}
                 <div className="col-sm-8">
                     <h3>{Object.keys(ResumeContent)[8]}</h3>
-                    {/* {experience} */}
+                    
+                    {experience}
+                    
                 </div>
                 <div className="col-sm-4"></div>
                 {/* education and certifications */}
